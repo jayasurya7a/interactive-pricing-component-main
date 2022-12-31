@@ -1,3 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+img {
+    max-width: 100%;
+  }
+
+ul {
+    list-style-type: none;
+  }
+  
+.bg-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+  }
+  
+.bg-pattern-img {
+    height: 300px;
+  }
+
 body {
     font-family: "Manrope", sans-serif;
+    text-align: center;
 }
